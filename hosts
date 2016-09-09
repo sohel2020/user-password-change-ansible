@@ -1,0 +1,12 @@
+[target-server]
+52.40.71.190
+52.25.52.208
+52.43.56.211
+52.24.41.152
+
+[target-server:vars]
+ansible_become=true
+ansible_become_user=root
+ansible_become_method=sudo
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/sohel2020/Documents/Key/private-key.pem
